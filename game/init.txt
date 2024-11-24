@@ -1,0 +1,22 @@
+# Basic Server Settings
+sv_name "respawn.zone"
+sv_maxplayers 16
+sv_password "awesome" 
+
+# Map Settings
+sv_map bloodgulch
+
+# Game Rules
+no_lead 1  # No lead required for shooting
+sv_gamemode ctf  # Options: slayer, ctf, oddball, king, race
+sv_timelimit 15  # Round time limit in minutes
+sv_fraglimit 25  # Kill limit for slayer
+
+# Server Performance
+sv_maxfps 30
+sv_netport 2302  # Default Halo port
+
+# Anti-cheat and Moderation
+sv_log_enabled 1
+chat_console_echo 1 
+sv_motd "WELCOME TO RESPAWN.ZONE"

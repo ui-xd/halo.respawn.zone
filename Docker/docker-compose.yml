@@ -1,0 +1,12 @@
+version: "2"
+services:
+  halofirst:
+    image: wineconsole/halo
+    tty: true
+    stdin_open: true
+    ports:
+      - "2302:2302/udp"
+    volumes:
+      - ./halopull:/game
+    environment:
+      - INTERNAL_PORT=2302
